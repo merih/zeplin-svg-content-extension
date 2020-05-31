@@ -1,0 +1,28 @@
+{
+  "name": "zeplin-svg-content-extension",
+  "version": "0.1.0",
+  "description": "Displays the content of layers with SVG assets.",
+  "scripts": {
+    "start": "zem start",
+    "build": "zem build",
+    "clean": "zem clean",
+    "exec": "zem exec",
+    "publish": "zem publish"
+  },
+  "author": {
+    "name": "Merih Akar",
+    "email": "merihakar@gmail.com"
+  },
+  "repository": "github:merih/zeplin-svg-content-extension",
+  "license": "MIT",
+  "zeplin": {
+    "displayName": "SVG Content",
+    "platforms": [
+      "web",
+      "android"
+    ]
+  },
+  "devDependencies": {
+    "zem": "^1.0.4"
+  }
+}

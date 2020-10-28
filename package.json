@@ -1,6 +1,6 @@
 {
   "name": "zeplin-svg-content-extension",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Displays the content of layers with SVG assets.",
   "scripts": {
     "start": "zem start",
@@ -18,11 +18,13 @@
   "zeplin": {
     "displayName": "SVG Content",
     "platforms": [
-      "web",
-      "android"
+      "android",
+      "ios",
+      "osx",
+      "web"
     ]
   },
   "devDependencies": {
-    "zem": "^1.0.4"
+    "zem": "^1.0.6"
   }
 }
